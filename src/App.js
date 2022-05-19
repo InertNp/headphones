@@ -1,8 +1,8 @@
-import { LandingPage } from "./Components/LandingPage";
 
+import {HomeScreen} from './Components/HomeScreen'
 
 function App() {
-  return <LandingPage />
+  return <HomeScreen />
 }
 
 export default App;
