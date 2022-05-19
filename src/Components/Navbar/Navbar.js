@@ -28,7 +28,8 @@ const Div2 = styled.div`
 `
 const H1 = styled.h1`
     color:${grey};
-    font-family: 'Overpass', sans-serif;
+    font-family: Overpass;
+    
     `
 const H2 = styled.h2`
     text-transform: uppercase;
