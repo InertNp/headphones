@@ -1,7 +1,13 @@
 import { Component1 } from "./Section1/Component1";
+import styled from "styled-components";
 
+const Container = styled.div`
+   display:flex;
+    flex-direction: column;
+`
 export const HomeScreen = () =>{
-    return <div>
+    return <Container>
         <Component1 />
-    </div>;
+        <Component1 />
+    </Container>;
 }
