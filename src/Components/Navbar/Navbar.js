@@ -3,9 +3,7 @@ import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 
 import styled from "styled-components";
 import { grey, white } from "../../Style/Style";
-const Nav = styled.nav`
-    font-family: 'Overpass', sans-serif;
-    color:black;
+const Nav = styled.nav` 
     position:absolute;
     top:5%;
     width:100%;
@@ -28,17 +26,17 @@ const Div2 = styled.div`
 `
 const H1 = styled.h1`
     color:${grey};
-    font-family: Overpass;
-    
+    font-size: 30px;
     `
 const H2 = styled.h2`
-    text-transform: uppercase;
+    text-transform: uppercase; 
     color:${white};
     padding:20px;
-    font-size:13px;
+    font-size:17px;
+    font-weight: lighter;
 `
 export const Navbar = () => {
-    return <Nav>
+    return  <Nav>
         <Div1>
             <Div2>
                 <H1>
@@ -64,5 +62,7 @@ export const Navbar = () => {
                 <H1><FontAwesomeIcon icon={faCartShopping} /></H1>
             </Div2>
         </Div1>
+       
     </Nav>
+     
 }
