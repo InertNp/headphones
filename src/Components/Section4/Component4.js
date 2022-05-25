@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { BorderButton } from "../../Style/Button";
+import { grey } from "../../Style/Style";
 
 const Div1 = styled.div`
   margin-top: 100px;
@@ -11,6 +12,7 @@ const Div1 = styled.div`
 
 const Div2 = styled.div`
   width: 80%;
+  background-color: ${grey};
   height: 400px;
 `;
 const Img = styled.img`
