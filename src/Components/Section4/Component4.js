@@ -11,7 +11,6 @@ const Div1 = styled.div`
 
 const Div2 = styled.div`
   width: 80%;
-  background-color: aliceblue;
   height: 400px;
 `;
 const Img = styled.img`
