@@ -12,17 +12,17 @@ const Div1 = styled.div`
 const Div2 = styled.div`
   width: 80%;
   background-color: aliceblue;
-  height: 500px;
+  height: 400px;
 `;
 const Img = styled.img`
   width: 80%;
   position: absolute;
-  height: 500px;
+  height: 400px;
 `;
 const TextContainer = styled.div`
   position: absolute;
   width: 40%;
-  height: 500px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -25,10 +25,10 @@ const Div2 = styled.div`
   align-items: center;
 `;
 const H1 = styled.h1`
-  @import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
   font-family: "Square Peg", cursive;
   color: ${grey};
-  font-size: 40px;
+  font-size: 70px;
+  line-height: 0;
 `;
 const H2 = styled.h2`
   text-transform: uppercase;
